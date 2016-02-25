@@ -1,6 +1,8 @@
 # 2016-02-23-WPF-Top-10-Power-Features
 Groupe .NET/ASP.NET
+
 2016-02-23
+
 Conférencier: Brian Noyes, Washington USA
 
 Top 10 WPF Power Features
