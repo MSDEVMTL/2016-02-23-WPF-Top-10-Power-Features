@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="WPFTopTenPlus.Views.VisualTreeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:WPFTopTenPlus.Views"
+             mc:Ignorable="d"
+             d:DesignHeight="300"
+             d:DesignWidth="300">
+    <Grid>
+        <Button x:Name="button"
+                Content="Button"
+                HorizontalAlignment="Left"
+                Margin="49,27,0,0"
+                VerticalAlignment="Top"
+                Width="75" />
+        <TextBox x:Name="textBox"
+                 HorizontalAlignment="Left"
+                 Height="23"
+                 Margin="164,33,0,0"
+                 TextWrapping="Wrap"
+                 Text="TextBox"
+                 VerticalAlignment="Top"
+                 Width="120" />
+        <DataGrid x:Name="dataGrid" ItemsSource="{Binding Customers}"
+                  HorizontalAlignment="Left"
+                  Margin="10,89,0,0"
+                  VerticalAlignment="Top"
+                  Height="160"
+                  Width="280" />
+
+    </Grid>
+</UserControl>
